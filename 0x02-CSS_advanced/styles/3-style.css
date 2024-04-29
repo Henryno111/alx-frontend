@@ -8,23 +8,19 @@
   --text-color: var(--color-black);
 }
 
-body {
-  color: var(--text-color);
-}
-
+body,
 a {
   color: var(--text-color);
 }
+
 
 .visually-hidden {
   display: none;
 }
 
-.card-category {
-  color: var(--color-primary);
-}
-
+.card-category,
 .section-tagline {
   color: var(--color-primary);
 }
+
 
