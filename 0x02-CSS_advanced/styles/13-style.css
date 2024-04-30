@@ -45,9 +45,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* style anchor element */
 
-a {
+a[href] {
   text-decoration: none;
   color: var(--text-color);
+}
+a[href]:visited {
+  font-style: italic;
+}
+
+a[href]:hover {
+  text-decoration: underline; 
+}
+
+a[href]:active {
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
@@ -76,3 +87,6 @@ a {
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
 }
+
+
+
