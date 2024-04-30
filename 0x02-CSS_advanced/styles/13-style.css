@@ -45,10 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* style anchor element */
 
-a[href] {
+a {
   text-decoration: none;
   color: var(--text-color);
 }
+
 a[href]:visited {
   font-style: italic;
 }
